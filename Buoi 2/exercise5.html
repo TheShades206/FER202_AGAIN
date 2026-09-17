@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Exercise 5: Students Detail</title>
+  </head>
+  <body>
+    <!-- Top Header -->
+    <header class="p-2 text-white" style="background-color: #ea7724;">
+      <div class="container d-flex justify-content-between align-items-center">
+        <!-- FPT Logo -->
+        <div class="bg-white px-2 py-1 rounded">
+          <img src="assets/images/fpt-logo.svg" alt="FPT Logo" height="30" />
+        </div>
+
+        <!-- Search -->
+        <div class="d-flex align-items-center">
+          <span class="small me-2">Search:</span>
+          <input type="text" class="form-control form-control-sm" style="width: 160px;" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="container my-3">
+      <img
+        src="assets/images/fpt_students_banner.jpg"
+        alt="FPT Students"
+        class="img-fluid w-100 rounded"
+        style="max-height: 350px; object-fit: cover;"
+      />
+    </div>
+
+    <!-- Breadcrumb -->
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light p-2 rounded small">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Students</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- Students Detail -->
+    <div class="container my-4">
+      <h3 class="text-center mb-4">Students Detail</h3>
+
+      <div class="row g-4 justify-content-center" style="max-width: 800px; margin: 0 auto;">
+        <!-- Student 1 -->
+        <div class="col-md-6">
+          <div class="border p-3 text-center rounded">
+            <img
+              src="assets/images/student1.jpg"
+              alt="DE160182"
+              class="img-fluid rounded mb-2"
+              style="height: 180px; width: 100%; object-fit: cover;"
+            />
+            <p class="small text-muted mb-1">DE160182</p>
+            <div class="d-flex justify-content-between small text-muted px-2 mb-2">
+              <span>Nguyễn Hữu Quốc Khánh</span>
+              <span>DaNang</span>
+            </div>
+            <div class="d-flex justify-content-center gap-4 small text-muted mb-3">
+              <label><input type="radio" name="s1" value="absent"> Absent</label>
+              <label><input type="radio" name="s1" value="present" checked> Present</label>
+            </div>
+            <button class="btn btn-sm text-white px-3" style="background-color: #ea7724;">Submit</button>
+          </div>
+        </div>
+
+        <!-- Student 2 -->
+        <div class="col-md-6">
+          <div class="border p-3 text-center rounded">
+            <img
+              src="assets/images/student2.jpg"
+              alt="DE160377"
+              class="img-fluid rounded mb-2"
+              style="height: 180px; width: 100%; object-fit: cover;"
+            />
+            <p class="small text-muted mb-1">DE160377</p>
+            <div class="d-flex justify-content-between small text-muted px-2 mb-2">
+              <span>Chay Vinh Thân</span>
+              <span>QuangNam</span>
+            </div>
+            <div class="d-flex justify-content-center gap-4 small text-muted mb-3">
+              <label><input type="radio" name="s2" value="absent"> Absent</label>
+              <label><input type="radio" name="s2" value="present" checked> Present</label>
+            </div>
+            <button class="btn btn-sm text-white px-3" style="background-color: #ea7724;">Submit</button>
+          </div>
+        </div>
+
+        <!-- Student 3 -->
+        <div class="col-md-6">
+          <div class="border p-3 text-center rounded">
+            <img
+              src="assets/images/student3.jpg"
+              alt="DE160547"
+              class="img-fluid rounded mb-2"
+              style="height: 180px; width: 100%; object-fit: cover;"
+            />
+            <p class="small text-muted mb-1">DE160547</p>
+            <div class="d-flex justify-content-between small text-muted px-2 mb-2">
+              <span>Đỗ Nguyên Phúc</span>
+              <span>QuangNam</span>
+            </div>
+            <div class="d-flex justify-content-center gap-4 small text-muted mb-3">
+              <label><input type="radio" name="s3" value="absent"> Absent</label>
+              <label><input type="radio" name="s3" value="present" checked> Present</label>
+            </div>
+            <button class="btn btn-sm text-white px-3" style="background-color: #ea7724;">Submit</button>
+          </div>
+        </div>
+
+        <!-- Student 4 -->
+        <div class="col-md-6">
+          <div class="border p-3 text-center rounded">
+            <img
+              src="assets/images/student4.jpg"
+              alt="DE170046"
+              class="img-fluid rounded mb-2"
+              style="height: 180px; width: 100%; object-fit: cover;"
+            />
+            <p class="small text-muted mb-1">DE170046</p>
+            <div class="d-flex justify-content-between small text-muted px-2 mb-2">
+              <span>Lê Hoàng Minh</span>
+              <span>DaNang</span>
+            </div>
+            <div class="d-flex justify-content-center gap-4 small text-muted mb-3">
+              <label><input type="radio" name="s4" value="absent"> Absent</label>
+              <label><input type="radio" name="s4" value="present" checked> Present</label>
+            </div>
+            <button class="btn btn-sm text-white px-3" style="background-color: #ea7724;">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white py-4 mt-5" style="background-color: #ea7724;">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Address -->
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-1">Our Address</h6>
+            <p class="small mb-1"><i class="bi bi-geo-alt"></i> Khu đô thị FPT City, Đà Nẵng</p>
+            <p class="small mb-1"><i class="bi bi-telephone"></i> +84 236 730 0999</p>
+            <p class="small mb-0"><i class="bi bi-envelope"></i> fptu.danang@fe.edu.vn</p>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="col-md-6 text-md-end">
+            <div class="d-inline-flex gap-3 fs-5">
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-google"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="text-white text-decoration-none"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-3 opacity-25" />
+
+        <div class="text-center small text-white-50">
+          &copy; Copyright 2021
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

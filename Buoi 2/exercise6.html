@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <title>Exercise 6</title>
+    <style>
+      .ribbon-sale {
+        position: absolute;
+        top: 15px;
+        right: -30px;
+        width: 100px;
+        background-color: #ff9800;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 22px;
+        transform: rotate(45deg);
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container">
+        <a class="navbar-brand text-muted" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Dropdown</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" />
+            <button class="btn btn-outline-primary btn-sm" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel Banner -->
+    <div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#bannerCarousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex align-items-center justify-content-center bg-secondary text-light display-4" style="height: 380px;">
+            1920 x 530
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center bg-dark text-light display-4" style="height: 380px;">
+            1920 x 530
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center bg-secondary text-light display-4" style="height: 380px;">
+            1920 x 530
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- New Product Section -->
+    <div class="container my-4">
+      <div class="mb-3">
+        <h4 class="fw-bold mb-0 text-uppercase">NEW PRODUCT</h4>
+        <small class="text-muted">List product description</small>
+      </div>
+
+      <div class="row g-3">
+        <!-- Product 1 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="bg-light text-muted d-flex align-items-center justify-content-center border-bottom" style="height: 220px; font-size: 1.2rem;">
+              280 x 280
+            </div>
+            <div class="card-body">
+              <h6 class="card-title mb-1">Product</h6>
+              <div class="mb-2">
+                <del class="text-muted small me-2">100,000 VND</del>
+                <span class="text-danger fw-bold small">80,000 VND</span>
+              </div>
+              <div class="d-flex gap-2">
+                <button class="btn btn-sm btn-primary"><i class="bi bi-cart-fill"></i></button>
+                <a href="#" class="btn btn-sm btn-outline-secondary flex-grow-1">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="bg-light text-muted d-flex align-items-center justify-content-center border-bottom" style="height: 220px; font-size: 1.2rem;">
+              280 x 280
+            </div>
+            <div class="card-body">
+              <h6 class="card-title mb-1">Product</h6>
+              <div class="mb-2">
+                <del class="text-muted small me-2">100,000 VND</del>
+                <span class="text-danger fw-bold small">80,000 VND</span>
+              </div>
+              <div class="d-flex gap-2">
+                <button class="btn btn-sm btn-primary"><i class="bi bi-cart-fill"></i></button>
+                <a href="#" class="btn btn-sm btn-outline-secondary flex-grow-1">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100">
+            <div class="bg-light text-muted d-flex align-items-center justify-content-center border-bottom" style="height: 220px; font-size: 1.2rem;">
+              280 x 280
+            </div>
+            <div class="card-body">
+              <h6 class="card-title mb-1">Product</h6>
+              <div class="mb-2">
+                <del class="text-muted small me-2">100,000 VND</del>
+                <span class="text-danger fw-bold small">80,000 VND</span>
+              </div>
+              <div class="d-flex gap-2">
+                <button class="btn btn-sm btn-primary"><i class="bi bi-cart-fill"></i></button>
+                <a href="#" class="btn btn-sm btn-outline-secondary flex-grow-1">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 (Sale) -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="card h-100 position-relative overflow-hidden">
+            <div class="ribbon-sale">Sale</div>
+            <div class="bg-light text-muted d-flex align-items-center justify-content-center border-bottom" style="height: 220px; font-size: 1.2rem;">
+              280 x 280
+            </div>
+            <div class="card-body">
+              <h6 class="card-title mb-1">Product</h6>
+              <div class="mb-2">
+                <del class="text-muted small me-2">100,000 VND</del>
+                <span class="text-danger fw-bold small">80,000 VND</span>
+              </div>
+              <div class="d-flex gap-2">
+                <button class="btn btn-sm btn-primary"><i class="bi bi-cart-fill"></i></button>
+                <a href="#" class="btn btn-sm btn-outline-secondary flex-grow-1">Xem chi tiết</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript: Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
