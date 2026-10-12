@@ -1,0 +1,32 @@
+.navbar-brand { font-size: 1.6rem; }
+.navbar .nav-link { font-size: 1.1rem; }
+
+.demo-navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  background: #f8f9fa;
+}
+
+.demo-navigation .active { color: #212529; font-weight: 600; }
+.page-content { padding-top: 1.5rem; padding-bottom: 3rem; }
+.page-content h1 { margin-bottom: 1.5rem; font-size: 1.75rem; }
+.dish-grid { max-width: 960px; margin-right: auto; margin-left: auto; }
+.dish-image { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.dish-detail-image { width: 100%; max-width: 480px; aspect-ratio: 1; object-fit: cover; }
+.user-list { list-style: none; padding-left: 0; }
+.user-list li { margin-bottom: 1rem; }
+.user-list a { font-size: 1.5rem; }
+
+.resource-details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.resource-details dd { margin: 0; }
+a:focus-visible, button:focus-visible { outline: 3px solid #0d6efd; outline-offset: 3px; }
