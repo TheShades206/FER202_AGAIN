@@ -1,0 +1,15 @@
+.app-container { max-width: 1140px; }
+.app-header { padding: 30px; margin-bottom: 12px; }
+.product-filters { align-items: center; }
+.search-bar { flex: 0 1 320px; }
+.category-select { width: 200px; }
+.sort-select { width: 220px; }
+.table th, .table td { padding: 14px 16px; }
+.detail-card { max-width: 720px; }
+
+@media (max-width: 575px) {
+  .app-header { padding: 20px 0; }
+  .app-header .navbar-brand { font-size: 1.2rem !important; }
+  .search-bar { flex-basis: 100%; }
+  .category-select, .sort-select { width: 100%; }
+}
